@@ -1,0 +1,62 @@
+button:focus,
+input[type="submit"] {
+  outline: 0;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 16px;
+  font-weight: bold;
+  white-space: nowrap;
+  user-select: none;
+  border: 1px solid transparent;
+  font-size: 16px;
+  border-radius: 50px;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.btn i {
+  font-size: 1.6rem;
+}
+.btn--primary {
+  color: darken($primary-color, 40%);
+  background-color: $primary-color;
+  @include hover {
+    background-color: darken($primary-color, 10%);
+    border-color: transparent;
+  }
+}
+
+.btn--secondary {
+  color: $primary-color;
+  background-color: transparent;
+  border-color: $primary-color;
+  @include hover {
+    background-color: darken($primary-color, 10%);
+    border-color: transparent;
+    color: #fff;
+  }
+}
+
+.btn--link {
+  color: $primary-color;
+  background-color: transparent;
+  @include hover {
+    color: darken($primary-color, 20%);
+    border-color: transparent;
+  }
+}
+
+.btn--justlink {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+@media (min-width: 768px) {}
+@media (min-width: 992px) {}
+@media (min-width: 1200px) {}
+
