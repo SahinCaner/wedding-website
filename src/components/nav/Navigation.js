@@ -13,11 +13,11 @@ const Navigation = () => (
         Our Story
       </NavLink>
     </li>
-    <li>
+    {/* <li>
       <NavLink to="/rsvp" activeClassName="active">
         RSVP
       </NavLink>
-    </li>
+    </li> */}
     <li>
       <NavLink to="/wedding-events" activeClassName="active">
         Wedding Events

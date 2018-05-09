@@ -8,7 +8,7 @@ const OurStoryPage = () => {
       <Hero
         title="Kimberly &#x1F497; Caner"
         subTitle="07 July 2018"
-        rsvp
+        
         imageURL="/images/our-story-background.jpg"
       />
       <div className="main main--content">

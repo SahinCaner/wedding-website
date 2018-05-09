@@ -8,7 +8,6 @@ const ContactPage = () => {
       <Hero
         title="Kimberly &#x1F497; Caner"
         subTitle="07 July 2018"
-        rsvp
         imageURL="/images/w3.jpg"
       />
       <div className="main main--content">
