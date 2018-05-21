@@ -169,6 +169,8 @@ const GettingThere = () => {
                   http://www.arroyotrabuco.com
                 </a>
               </p>
+
+              <p>The nearest airport to the venue is John Wayne Airport, SNA, in Orange County. </p>
             </div>
           </div>
         </div>

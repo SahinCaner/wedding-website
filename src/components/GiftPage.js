@@ -19,20 +19,24 @@ const GiftPage = () => {
                 We have an amazon wedding registry. We welcome any big/small
                 contribution for our wedding registry.
               </p>
-
-              <a
-                href="https://www.amazon.com/wedding/kimberly-jones-caner-sahin-mission-viejo-july-2018/registry/UST32D53GNE7"
-                target="_blank"
-              >
-                Click here for wedding Amazon registry.
-              </a>
-
-              <a
-                href="https://www.macys.com/wgl/registry/guest/6933729"
-                target="_blank"
-              >
-                Click here for wedding Macy's registry.
-              </a>
+              <ul>
+                <li>
+                  <a
+                    href="https://www.amazon.com/wedding/kimberly-jones-caner-sahin-mission-viejo-july-2018/registry/UST32D53GNE7"
+                    target="_blank"
+                  >
+                    Click here for our Amazon wedding registry.
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.macys.com/wgl/registry/guest/6933729"
+                    target="_blank"
+                  >
+                    Click here for our Macy's wedding registry.
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>

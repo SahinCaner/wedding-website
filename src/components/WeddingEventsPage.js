@@ -43,13 +43,6 @@ const WeddingEventsPage = () => {
             </div>
             <div class="content__wrapper content__wrapper--column">
               <div class="column">
-                <h3>Friday</h3>
-                <p>
-                  For our out of town guests we will be hosting a rehearsal
-                  dinner.
-                </p>
-              </div>
-              <div class="column">
                 <h3>Saturday</h3>
                 <p>
                   The wedding will be at Arroyo Trabuco Golf Club in Mission
